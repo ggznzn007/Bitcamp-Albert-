@@ -1,0 +1,1 @@
+start gdigame.exe cspotrun.r test.r OGRE.R

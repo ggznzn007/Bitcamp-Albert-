@@ -1,0 +1,56 @@
+1.#이 다시 시작위치에서 반복되도록 만드세요
+2.#이 왕복하도록 만드세요
+3.#이 반사되도록 만드세요 (힌트 : x y값을 모두 변환시켜라)
+
+
+
+1. 코드
+//void main()// 숙제 1번
+//{
+//	setcursortype(NOCURSOR); // no 커서
+//
+//	int x = 0;
+//	int y = 0;
+//			for (x = 0; x <= 80; x++)
+//			for (y = 0; y <=80; y++)
+//			{
+//			clrscr(); //화면 청소
+//			gotoxy(x, 12);
+//			gotoxy(y, 12);
+//			puts("#");
+//			delay(1);
+//			puts(" ");
+//		}
+//
+//
+//
+//}
+
+2.코드
+//void main()// 숙제 2번
+//{
+//	setcursortype(NOCURSOR); // no 커서
+//	int x = 0;
+//	int y = 0;
+//	while (1)
+//		for (x = 0; x <= 80; x++) {
+//			if (x == 80)
+//				for (y = 80; y > 0; y--) {
+//					clrscr(); //화면 청소
+//					gotoxy(y, 12);
+//					puts("●");
+//					delay(1);
+//					puts(" ");
+//
+//				}
+//			clrscr(); //화면 청소
+//			gotoxy(x, 12);
+//			puts("●");
+//			delay(1);
+//			puts(" ");
+//		}
+//
+//
+//}
+
+
