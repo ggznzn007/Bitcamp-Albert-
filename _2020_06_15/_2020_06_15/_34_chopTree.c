@@ -14,22 +14,31 @@
 
 #include <stdio.h>
 
-void main() {
-	int a = 0;
+void cutTree(int tryagain) {
+	int cnt = 0;
 	
-	for (a = 0; a <= 10; a++)
-		 {
-		if (a == a + 1);
-		{
-			++a;
-			scanf_s("%d", &a);
-			printf("나무를 찍었다.\n", a);
-		}
+	//for (cnt = 1; cnt <= 5; ++cnt)
+	for (cnt = 1; cnt <= tryagain; ++cnt)
+	{
 		
-		}
+		printf("\n나무를 몇 번 찍을까요?\n", cnt);
+		scanf_s("%d", &cnt);
+		printf("\n");		
+		printf("나무를 찍었습니다. 쿵!\n", cnt);
+		printf("\n");
 		
+		if (cnt == tryagain) {
+			printf("쿵! 나무를 베었습니다!!!\n");
+			printf("\n");
+		}
+		else if (cnt < tryagain) {
+			printf("나무를 베지 못했습니다.\n");
+		}
+	}
+}
 
-
-
-
+void main()
+{
+	cutTree(10);
+	
 }
