@@ -16,13 +16,14 @@
 
 void cutTree(int tryagain) {
 	int cnt = 0;
+	int n;
 	
-	//for (cnt = 1; cnt <= 5; ++cnt)
+	//for (cnt = 1; cnt <= n; ++cnt)
 	for (cnt = 1; cnt <= tryagain; ++cnt)
 	{
 		
 		printf("\n나무를 몇 번 찍을까요?\n", cnt);
-		scanf_s("%d", &cnt);
+		scanf_s("%d", &cnt,&n);
 		printf("\n");		
 		printf("나무를 찍었습니다. 쿵!\n", cnt);
 		printf("\n");
@@ -39,6 +40,6 @@ void cutTree(int tryagain) {
 
 void main()
 {
-	cutTree(10);
+	cutTree(15);
 	
 }
