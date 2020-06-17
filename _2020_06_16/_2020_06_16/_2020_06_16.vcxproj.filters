@@ -15,76 +15,25 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="_35_function.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="_36_localVar.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="_37_localVar.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="_38_localVar.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="_39_drawLine.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="turboc.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="_40_globalVar.c">
+    <ClCompile Include="homework0616.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="_41_array.c">
+    <ClCompile Include="basic_2020_06_16_1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="_42_array.c">
+    <ClCompile Include="basic_2020_06_16_2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="_43_array.c">
+    <ClCompile Include="basic_2020_06_16_3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="_44_array.c">
+    <ClCompile Include="basic_2020_06_16_4.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="_45_array.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="_46_array.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="_47_array.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="_49_strArray.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="_50_strArray.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="_51_strArray.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="_52_strArray.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="_53_strArray.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="_54_strArray.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="_48_array.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="_55_twoDimArray.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="_56_twoDimArray.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="_57_twoDimArray.c">
+    <ClCompile Include="basic_2020_06_16_6.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -92,5 +41,10 @@
     <ClInclude Include="turboc.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="basic_2020_06_16_5.c">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
 </Project>
