@@ -15,13 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="p1.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="turboc.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="p2.c">
+    <ClCompile Include="p30.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="p31.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="p32.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="p33.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="p34.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

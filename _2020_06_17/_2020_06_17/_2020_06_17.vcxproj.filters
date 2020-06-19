@@ -15,20 +15,37 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="_62_using_pointer.c">
+    <ClCompile Include="_69_drawBar.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="_63_using_pointer.c">
+    <ClCompile Include="turboc.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="_64_using_pointer.c">
+    <ClCompile Include="_70_moveBar.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="_65_using_pointer.c">
+    <ClCompile Include="_71_BoundrymoveBar.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="_66_using_pointer.c">
+    <ClCompile Include="_72_advanceMoveBar.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="_73_doubleMoveSharp.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="basic01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="basic03.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="basic04.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="turboc.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
